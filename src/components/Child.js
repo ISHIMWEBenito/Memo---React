@@ -25,7 +25,7 @@ Memo: if you have any props that are kind of going down to a
 component and you only want the component to render if it's 
 props are actually changing you can use memo to basically say only
 allow me to re-render if my incoming props are changing so long as my 
-incoming props are now changing don't re-render me
+incoming props are not changing don't re-render me
 
 */
 
